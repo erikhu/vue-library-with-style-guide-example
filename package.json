@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "vue-cli-service build",
+    "build-lib": "vue-cli-service build --target lib src/main.ts",
     "test:unit": "vue-cli-service test:unit",
     "lint": "vue-cli-service lint"
   },
