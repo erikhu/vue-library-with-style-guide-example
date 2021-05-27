@@ -2,6 +2,7 @@
   "name": "vue-library-with-style-guide-example",
   "version": "0.1.0",
   "private": true,
+  "main": "./dist/vue-library-with-style-guide-example.common.js",
   "scripts": {
     "build": "vue-cli-service build",
     "build-lib": "vue-cli-service build --target lib --name vue-library-with-style-guide-example src/main.ts",
