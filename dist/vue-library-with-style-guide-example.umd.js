@@ -2663,6 +2663,20 @@ module.exports = function (key) {
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
+// EXPORTS
+__webpack_require__.d(__webpack_exports__, "HelloWorld", function() { return /* reexport */ HelloWorld_namespaceObject; });
+__webpack_require__.d(__webpack_exports__, "Counter", function() { return /* reexport */ Counter_namespaceObject; });
+
+// NAMESPACE OBJECT: ./src/components/HelloWorld.vue
+var HelloWorld_namespaceObject = {};
+__webpack_require__.r(HelloWorld_namespaceObject);
+__webpack_require__.d(HelloWorld_namespaceObject, "default", function() { return components_HelloWorld; });
+
+// NAMESPACE OBJECT: ./src/components/Counter.vue
+var Counter_namespaceObject = {};
+__webpack_require__.r(Counter_namespaceObject);
+__webpack_require__.d(Counter_namespaceObject, "default", function() { return components_Counter; });
+
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/setPublicPath.js
 // This file is imported into lib/wc client bundles.
 
@@ -3963,6 +3977,8 @@ var Counter_component = normalizeComponent(
 
 /* harmony default export */ var components_Counter = (Counter_component.exports);
 // CONCATENATED MODULE: ./src/main.ts
+
+
 
 
 // CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
