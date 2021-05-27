@@ -82,7 +82,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "fb15");
+/******/ 	return __webpack_require__(__webpack_require__.s = "fae3");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -2647,7 +2647,7 @@ module.exports = function (key) {
 
 /***/ }),
 
-/***/ "fb15":
+/***/ "fae3":
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -3868,13 +3868,96 @@ var component = normalizeComponent(
 )
 
 /* harmony default export */ var components_HelloWorld = (component.exports);
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules/.cache/vue-loader","cacheIdentifier":"138848c2-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Counter.vue?vue&type=template&id=45b96cea&
+var Countervue_type_template_id_45b96cea_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',[_c('h2',[_vm._v("🎪 Awesome counter ❤")]),_c('div',[_vm._v(_vm._s(_vm.counter))]),_c('button',{on:{"click":function($event){return _vm.inc()}}},[_vm._v("+")]),_c('button',{on:{"click":function($event){return _vm.dec()}}},[_vm._v("-")])])}
+var Countervue_type_template_id_45b96cea_staticRenderFns = []
+
+
+// CONCATENATED MODULE: ./src/components/Counter.vue?vue&type=template&id=45b96cea&
+
+// CONCATENATED MODULE: ./node_modules/@babel/runtime/helpers/esm/createClass.js
+function _defineProperties(target, props) {
+  for (var i = 0; i < props.length; i++) {
+    var descriptor = props[i];
+    descriptor.enumerable = descriptor.enumerable || false;
+    descriptor.configurable = true;
+    if ("value" in descriptor) descriptor.writable = true;
+    Object.defineProperty(target, descriptor.key, descriptor);
+  }
+}
+
+function _createClass(Constructor, protoProps, staticProps) {
+  if (protoProps) _defineProperties(Constructor.prototype, protoProps);
+  if (staticProps) _defineProperties(Constructor, staticProps);
+  return Constructor;
+}
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--14-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/ts-loader??ref--14-3!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/components/Counter.vue?vue&type=script&lang=ts&
+
+
+
+
+
+
+
+var Countervue_type_script_lang_ts_Counter = /*#__PURE__*/function (_Vue) {
+  _inherits(Counter, _Vue);
+
+  var _super = _createSuper(Counter);
+
+  function Counter() {
+    var _this;
+
+    _classCallCheck(this, Counter);
+
+    _this = _super.apply(this, arguments);
+    _this.counter = 0;
+    return _this;
+  }
+
+  _createClass(Counter, [{
+    key: "inc",
+    value: function inc() {
+      this.counter += 1;
+    }
+  }, {
+    key: "dec",
+    value: function dec() {
+      this.counter -= 1;
+    }
+  }]);
+
+  return Counter;
+}(external_commonjs_vue_commonjs2_vue_root_Vue_default.a);
+
+Countervue_type_script_lang_ts_Counter = __decorate([vue_class_component_esm], Countervue_type_script_lang_ts_Counter);
+/* harmony default export */ var Countervue_type_script_lang_ts_ = (Countervue_type_script_lang_ts_Counter);
+// CONCATENATED MODULE: ./src/components/Counter.vue?vue&type=script&lang=ts&
+ /* harmony default export */ var components_Countervue_type_script_lang_ts_ = (Countervue_type_script_lang_ts_); 
+// CONCATENATED MODULE: ./src/components/Counter.vue
+
+
+
+
+
+/* normalize component */
+
+var Counter_component = normalizeComponent(
+  components_Countervue_type_script_lang_ts_,
+  Countervue_type_template_id_45b96cea_render,
+  Countervue_type_template_id_45b96cea_staticRenderFns,
+  false,
+  null,
+  null,
+  null
+  
+)
+
+/* harmony default export */ var components_Counter = (Counter_component.exports);
 // CONCATENATED MODULE: ./src/main.ts
 
-/* harmony default export */ var main = (components_HelloWorld);
-// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib.js
 
+// CONCATENATED MODULE: ./node_modules/@vue/cli-service/lib/commands/build/entry-lib-no-default.js
 
-/* harmony default export */ var entry_lib = __webpack_exports__["default"] = (main);
 
 
 
